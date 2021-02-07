@@ -45,3 +45,8 @@
   with_items: "{{ ufw_rules }}"
   notify: reload ufw
   tags: ufw
+
+- name: enable ufw
+  community.general.ufw:
+    state: enabled
+  tags: ufw
