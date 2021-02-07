@@ -2,6 +2,6 @@
 - name: reload ufw
   service:
     name: ufw
-    state: reloaded
+    state: restarted
   become: true
   tags: ufw
