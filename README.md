@@ -12,6 +12,10 @@ Install and configure ufw using ansible.
 ## Requirements
 
 - Ansible >= 2.10 (It might work on previous versions, but we cannot guarantee it)
+- Install the Community Packages 
+```
+ansible-galaxy collection install community.general
+```
 
 ## Role Variables
 
